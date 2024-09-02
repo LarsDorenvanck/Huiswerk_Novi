@@ -35,7 +35,9 @@ print(tuplemix[start:end])
 tuple_identity = ("Lars", 25)
 
 # Pak de gegevens uit de tuple en sla ze op in afzonderlijke variabelen (Wat gebeurt er als je de variabelen in de verkeerde volgorde definieert?)
+age = tuple_identity[1]
 
 
 # Print de uitgepakte variabelen
 
+print(age)
