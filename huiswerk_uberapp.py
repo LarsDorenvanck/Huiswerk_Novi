@@ -5,20 +5,31 @@ print("2: Uber Black (€2,0 per km)")
 print("3: Uber Van (€3,5 per km)")
 keuze = int(input("Voer het nummer in van de gekozen Uber: "))
 
+# Initialisatie van variabelen
+uber_type = None
+sfadfasdf = None
+
+
+
+# Bepaal de prijs per kilometer op basis van de keuze
+if keuze == 1:
+    sfadfasdf = 1.5
+    uber_type = "Uber X"
+elif keuze == 2:
+    sfadfasdf = 2.0
+    uber_type = "Uber Black"
+elif keuze == 3:
+    sfadfasdf = 3.5
+    uber_type = "Uber Van"
+else:
+    print("Ongeldige keuze")
+
 # Gebruiker voert het aantal kilometers in
 kilometers = int(input("Voer het aantal kilometers in: "))
-prijs = 0
 
-if(keuze == 1):
-    prijs = kilometers * 1.5
-elif(keuze == 2):
-    prijs = kilometers * 2
-elif(keuze == 3):
-    prijs = kilometers * 3.5
-else:
-    print("niet geldige keuze")
-    exit()
+# Bereken de totale kosten
+totale_kosten = sfadfasdf * kilometers
 
-#print output
-print(f"De totale kosten zijn: {prijs} " "euro")
-
+# Geef de keuze en de kosten weer
+print(f"Je hebt gekozen voor {uber_type} voor een afstand van {kilometers} km.")
+print(f"De totale kosten zijn: €{totale_kosten:.2f}")
