@@ -20,6 +20,9 @@
 
 # Probeer het nu met een loop.
 
+for i in range(1, 11):
+    print(f"5 x {i} = {5 * i}")
+
 
 # --------------------------------------------------------------------------------------------
 
@@ -27,8 +30,13 @@
 # Schrijf een programma dat de som van alle getallen tot een bepaalde limiet berekent.
 
 # Bijvoorbeeld: de som van alle getallen tot 3 is 6 (1 + 2 + 3 = 6)
+total = 0
+for j in range(0, 5):
+    j += 1
+    total += j
+    print(f"{j} +")
 
-
+print(f"= {total}")
 
 # --------------------------------------------------------------------------------------------
 
@@ -40,7 +48,15 @@
 # En voor veelvouden van vijf, druk "Buzz" af.
 # Voor veelvouden van zowel drie als vijf, druk "FizzBuzz" af.
 
-
+for i in range(1, 101):
+    if i % 3 == 0 and i % 5 == 0:
+        print("FizzBuzz")
+    elif i % 3 == 0:
+        print("Fizz")
+    elif i % 5 == 0:
+        print("Buzz")
+    else:
+        print(i)
 
 # --------------------------------------------------------------------------------------------
 
@@ -60,13 +76,26 @@
 # 8 + 13 = 21
 # 13 + 21 = 34
 
-i = int(input("Hoeveel Fibonacci-getallen wil je zien? "))
+length = int(input("Hoeveel Fibonacci-getallen wil je zien? "))
 
-# De eerste twee getallen van de Fibonacci-reeks zijn 0 en 1
 a = 0
 b = 1
+
+for _ in range(length):
+    prev = a
+    a = b
+    b = prev + b
+    print(a)
+
+
+# De eerste twee getallen van de Fibonacci-reeks zijn 0 en 1
+#a = 0
+#b = 1
 
 # Eerst drukken we de eerste twee getallen af
 
 
 # Vervolgens berekenen we de volgende getallen en drukken ze af
+
+
+exit()
