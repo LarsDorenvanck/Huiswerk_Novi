@@ -1,0 +1,19 @@
+Coordinates for tokyo: Latitude: 35.6821936, Longitude: 139.762221
+Size of the explosion is 21 kt
+--------------------------------
+Total Population Affected (first 1st degree burns or worse): 120,156
+Population Vaporized: 6,007
+Severely Injured: 18,023
+3rd Degree Burns: 36,046
+2nd Degree Burns: 42,054
+1st Degree Burns: 18,023
+--------------------------------
+Weather Description: broken clouds
+Wind Speed: 6.69 m/s
+Calculated Fallout Radius: 5.48 km
+Calculated Risk Percentage: 67.00%
+Day 1: Fallout Potential Victims (leftover from vaporized): 181,855
+Day 1: Fallout Actual Victims (risk percentage applied based on weather): 121,842
+--------------------------------
+Total Estimated Casualties: 241,995
+--------------------------------

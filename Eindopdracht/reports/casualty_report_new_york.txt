@@ -1,0 +1,19 @@
+Coordinates for new york: Latitude: 40.7127281, Longitude: -74.0060152
+Size of the explosion is 15000 kt
+--------------------------------
+Total Population Affected (first 1st degree burns or worse): 26,469,261
+Population Vaporized: 1,323,463
+Severely Injured: 3,970,389
+3rd Degree Burns: 7,940,778
+2nd Degree Burns: 9,264,241
+1st Degree Burns: 3,970,389
+--------------------------------
+Weather Description: clear sky
+Wind Speed: 5.14 m/s
+Calculated Fallout Radius: 44.43 km
+Calculated Risk Percentage: 67.00%
+Day 1: Fallout Potential Victims (leftover from vaporized): 27,729,450
+Day 1: Fallout Actual Victims (risk percentage applied based on weather): 18,578,731
+--------------------------------
+Total Estimated Casualties: 45,047,991
+--------------------------------

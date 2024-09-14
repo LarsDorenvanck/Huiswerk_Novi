@@ -1,0 +1,19 @@
+Coordinates for apeldoorn: Latitude: 52.17957375, Longitude: 5.930077460807249
+Size of the explosion is 50000 kt
+--------------------------------
+Total Population Affected (first 1st degree burns or worse): 2,488,099
+Population Vaporized: 124,404
+Severely Injured: 373,214
+3rd Degree Burns: 746,429
+2nd Degree Burns: 870,834
+1st Degree Burns: 373,214
+--------------------------------
+Weather Description: broken clouds
+Wind Speed: 2.57 m/s
+Calculated Fallout Radius: 55.11 km
+Calculated Risk Percentage: 67.00%
+Day 1: Fallout Potential Victims (leftover from vaporized): 3,567,432
+Day 1: Fallout Actual Victims (risk percentage applied based on weather): 2,390,179
+--------------------------------
+Total Estimated Casualties: 4,878,274
+--------------------------------
